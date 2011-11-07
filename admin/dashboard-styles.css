@@ -1,0 +1,28 @@
+#suptic-the-support-ticket-list div.ticket {
+	border-top: 1px solid #ececec;
+	margin: 0 -10px;
+	padding: 4px 8px 0;
+}
+
+#suptic-the-support-ticket-list div.ticket:first-child {
+	border-top: none;
+}
+
+#suptic-the-support-ticket-list h4 {
+	line-height: 1.2;
+	margin-top: -.2em;
+	font-weight: normal;
+	color: #999;
+}
+
+#suptic-the-support-ticket-list h4 cite {
+	font-style: normal;
+	font-weight: normal;
+}
+
+#suptic-the-support-ticket-list h4 abbr {
+	font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+	font-size: 11px;
+	color: #999;
+	margin-left: 3px;
+}

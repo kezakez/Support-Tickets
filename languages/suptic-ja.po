@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Support Tickets WordPress Plugin Translation for Japanese\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-26 19:09+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Takayuki Miyoshi <takayukister@gmail.com>\n"
+"Language-Team: Takayuki Miyoshi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: support-tickets/admin/admin.php:43
+msgid "optional"
+msgstr "オプション"
+
+#: support-tickets/admin/admin.php:44
+msgid "Generate Tag"
+msgstr "タグの作成"
+
+#: support-tickets/admin/admin.php:45
+msgid "Text field"
+msgstr "テキスト項目"
+
+#: support-tickets/admin/admin.php:46
+msgid "Email field"
+msgstr "メールアドレス項目"
+
+#: support-tickets/admin/admin.php:47
+msgid "Text area"
+msgstr "テキストエリア"
+
+#: support-tickets/admin/admin.php:48
+msgid "Drop-down menu"
+msgstr "ドロップダウン・メニュー"
+
+#: support-tickets/admin/admin.php:49
+msgid "Checkboxes"
+msgstr "チェックボックス"
+
+#: support-tickets/admin/admin.php:50
+msgid "Radio buttons"
+msgstr "ラジオボタン"
+
+#: support-tickets/admin/admin.php:51
+msgid "Acceptance"
+msgstr "承諾の確認"
+
+#: support-tickets/admin/admin.php:52
+msgid "Make this checkbox checked by default?"
+msgstr "初期状態でチェックボックスにチェックを入れますか?"
+
+#: support-tickets/admin/admin.php:53
+msgid "Make this checkbox work inversely?"
+msgstr "チェックボックスを反転させますか?"
+
+#: support-tickets/admin/admin.php:54
+msgid "* That means visitor who accepts the term unchecks it."
+msgstr "* つまり、利用者には条項に承諾する場合にチェックボックスのチェックをはずしてもらいます。"
+
+#: support-tickets/admin/admin.php:55
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: support-tickets/admin/admin.php:56
+msgid "Quiz"
+msgstr "クイズ"
+
+#: support-tickets/admin/admin.php:57
+msgid "Quizzes"
+msgstr "質問と答え"
+
+#: support-tickets/admin/admin.php:58
+msgid "* quiz|answer (e.g. 1+1=?|2)"
+msgstr "* 質問|答え (例: 1+1=?|2)"
+
+#: support-tickets/admin/admin.php:59
+msgid "Submit button"
+msgstr "送信ボタン"
+
+#: support-tickets/admin/admin.php:60
+msgid "Name"
+msgstr "名前"
+
+#: support-tickets/admin/admin.php:61
+msgid "Required field?"
+msgstr "必須入力の項目ですか?"
+
+#: support-tickets/admin/admin.php:62
+msgid "Allow multiple selections?"
+msgstr "複数選択を可能にしますか?"
+
+#: support-tickets/admin/admin.php:63
+msgid "Insert a blank item as the first option?"
+msgstr "先頭に空の項目を挿入しますか?"
+
+#: support-tickets/admin/admin.php:64
+msgid "Make checkboxes exclusive?"
+msgstr "チェックボックスを排他化しますか?"
+
+#: support-tickets/admin/admin.php:65
+msgid "Choices"
+msgstr "選択項目"
+
+#: support-tickets/admin/admin.php:66
+msgid "Label"
+msgstr "ラベル"
+
+#: support-tickets/admin/admin.php:67
+msgid "Default value"
+msgstr "デフォルト値"
+
+#: support-tickets/admin/admin.php:68
+msgid "Akismet"
+msgstr "Akismet"
+
+#: support-tickets/admin/admin.php:69
+msgid "This field requires author's name"
+msgstr "送信者の名前の入力を要求する項目"
+
+#: support-tickets/admin/admin.php:70
+msgid "This field requires author's URL"
+msgstr "送信者の URL の入力を要求する項目"
+
+#: support-tickets/admin/admin.php:71
+msgid "This field requires author's email address"
+msgstr "送信者のメールアドレスの入力を要求する項目"
+
+#: support-tickets/admin/admin.php:72
+msgid "Copy this code and paste it into the form left."
+msgstr "このコードをコピーして、左のフォーム内にペーストしてください。"
+
+#: support-tickets/admin/admin.php:73
+msgid "Foreground color"
+msgstr "文字色"
+
+#: support-tickets/admin/admin.php:74
+msgid "Background color"
+msgstr "背景色"
+
+#: support-tickets/admin/admin.php:75
+msgid "Image size"
+msgstr "画像サイズ"
+
+#: support-tickets/admin/admin.php:76
+msgid "Small"
+msgstr "小"
+
+#: support-tickets/admin/admin.php:77
+msgid "Medium"
+msgstr "中"
+
+#: support-tickets/admin/admin.php:78
+msgid "Large"
+msgstr "大"
+
+#: support-tickets/admin/admin.php:79
+msgid "Image settings"
+msgstr "画像の設定"
+
+#: support-tickets/admin/admin.php:80
+msgid "Input field settings"
+msgstr "入力項目の設定"
+
+#: support-tickets/admin/admin.php:81
+msgid "For image"
+msgstr "画像"
+
+#: support-tickets/admin/admin.php:82
+msgid "For input field"
+msgstr "入力項目"
+
+#: support-tickets/admin/admin.php:83
+msgid "* One choice per line."
+msgstr "* 1行ごとに分けて入力してください。"
+
+#: support-tickets/admin/admin.php:84
+msgid "Note: To use CAPTCHA, you need Really Simple CAPTCHA plugin installed."
+msgstr "お知らせ: CAPTCHA を使うには Really Simple CAPTCHA プラグインのインストールが必要です。"
+
+#: support-tickets/admin/admin.php:95
+#: support-tickets/admin/admin.php:111
+#: support-tickets/admin/admin.php:127
+#: support-tickets/admin/admin.php:139
+#: support-tickets/admin/admin.php:153
+#: support-tickets/admin/admin.php:167
+#: support-tickets/admin/admin.php:184
+#: support-tickets/admin/admin.php:213
+#: support-tickets/admin/admin.php:235
+#: support-tickets/admin/admin.php:249
+msgid "Cheatin&#8217; uh?"
+msgstr "血迷いましたか ?"
+
+#: support-tickets/admin/admin.php:277
+msgid "Support Tickets"
+msgstr "サポートチケット"
+
+#: support-tickets/admin/admin.php:277
+msgid "Support"
+msgstr "サポート"
+
+#: support-tickets/admin/admin.php:280
+#: support-tickets/admin/edit-forms.php:27
+msgid "Edit Forms"
+msgstr "フォームの編集"
+
+#: support-tickets/admin/admin.php:280
+msgid "Forms"
+msgstr "フォーム"
+
+#: support-tickets/admin/admin.php:283
+#: support-tickets/admin/edit-tickets.php:57
+msgid "Edit Tickets"
+msgstr "チケットの編集"
+
+#: support-tickets/admin/admin.php:283
+msgid "Tickets"
+msgstr "チケット"
+
+#: support-tickets/admin/admin.php:292
+msgid "Form created."
+msgstr "フォームを作成しました。"
+
+#: support-tickets/admin/admin.php:294
+msgid "Form updated."
+msgstr "フォームを更新しました。"
+
+#: support-tickets/admin/admin.php:296
+msgid "Form deleted."
+msgstr "フォームを削除しました。"
+
+#: support-tickets/admin/admin.php:298
+msgid "Ticket closed."
+msgstr "チケットをクローズしました。"
+
+#: support-tickets/admin/admin.php:300
+msgid "Ticket reopened."
+msgstr "チケットを再オープンしました。"
+
+#: support-tickets/admin/admin.php:302
+msgid "Ticket deleted."
+msgstr "チケットを削除しました。"
+
+#: support-tickets/admin/admin.php:304
+msgid "Ticket updated."
+msgstr "チケットを更新しました。"
+
+#: support-tickets/admin/admin.php:306
+msgid "Tickets closed."
+msgstr "チケットをクローズしました。"
+
+#: support-tickets/admin/admin.php:308
+msgid "Tickets deleted."
+msgstr "チケットを削除しました。"
+
+#: support-tickets/admin/admin.php:310
+msgid "Message status changed."
+msgstr "メッセージのステータスを変更しました。"
+
+#: support-tickets/admin/admin.php:312
+msgid "Message updated."
+msgstr "メッセージを更新しました。"
+
+#: support-tickets/admin/admin.php:314
+msgid "Message deleted."
+msgstr "メッセージを削除しました。"
+
+#: support-tickets/admin/admin.php:325
+msgid "Recent Updated Support Tickets"
+msgstr "最新サポートチケット"
+
+#: support-tickets/admin/admin.php:335
+msgid "No pending tickets now."
+msgstr "返信待ちのチケットは現在ありません。"
+
+#: support-tickets/admin/admin.php:348
+#, php-format
+msgid "From %1$s on %2$s"
+msgstr "%2$s に %1$s より"
+
+#: support-tickets/admin/admin.php:358
+msgid "No messages yet."
+msgstr "メッセージはまだありません。"
+
+#: support-tickets/admin/admin.php:367
+msgid "View all"
+msgstr "すべて表示"
+
+#: support-tickets/admin/edit-forms.php:36
+msgid "Add new"
+msgstr "新規追加"
+
+#: support-tickets/admin/edit-forms.php:60
+msgid "Form Page"
+msgstr "フォームのページ"
+
+#: support-tickets/admin/edit-forms.php:63
+msgid "- Select -"
+msgstr "- 選択 -"
+
+#: support-tickets/admin/edit-forms.php:68
+msgid "View Page"
+msgstr "ページを表示"
+
+#: support-tickets/admin/edit-forms.php:75
+#: support-tickets/admin/edit-forms.php:119
+msgid "Create Form"
+msgstr "フォームを作成"
+
+#: support-tickets/admin/edit-forms.php:77
+#: support-tickets/admin/edit-forms.php:121
+msgid "Update Form"
+msgstr "フォームを更新"
+
+#: support-tickets/admin/edit-forms.php:84
+msgid "Delete Form"
+msgstr "フォームを削除"
+
+#: support-tickets/admin/edit-forms.php:86
+msgid ""
+"You are about to delete this form.\n"
+"'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"このフォームを削除しようとしています。\n"
+"  'キャンセル' で中止、 'OK' で削除します。"
+
+#: support-tickets/admin/edit-forms.php:98
+msgid "Form Design"
+msgstr "フォームのデザイン"
+
+#: support-tickets/admin/edit-message.php:3
+msgid "Edit Message"
+msgstr "メッセージの編集"
+
+#: support-tickets/admin/edit-message.php:23
+msgid "Save"
+msgstr "保存"
+
+#: support-tickets/admin/edit-message.php:28
+#: support-tickets/admin/edit-ticket.php:78
+#: support-tickets/admin/edit-tickets.php:109
+#: support-tickets/admin/edit-tickets.php:200
+msgid "Delete"
+msgstr "削除 "
+
+#: support-tickets/admin/edit-message.php:30
+msgid ""
+"You are about to delete this message.\n"
+"'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"このメッセージを削除しようとしています。\n"
+"削除するには 'OK' を、中止するには 'キャンセル' をクリックしてください。"
+
+#: support-tickets/admin/edit-ticket.php:3
+msgid "Edit Ticket"
+msgstr "チケットの編集"
+
+#: support-tickets/admin/edit-ticket.php:26
+#: support-tickets/admin/edit-tickets.php:139
+#: support-tickets/admin/edit-tickets.php:152
+msgid "Author"
+msgstr "作成者"
+
+#: support-tickets/admin/edit-ticket.php:31
+#: support-tickets/admin/edit-tickets.php:142
+#: support-tickets/admin/edit-tickets.php:155
+msgid "Created"
+msgstr "作成"
+
+#: support-tickets/admin/edit-ticket.php:36
+#: support-tickets/admin/edit-tickets.php:143
+#: support-tickets/admin/edit-tickets.php:156
+msgid "Updated"
+msgstr "更新"
+
+#: support-tickets/admin/edit-ticket.php:41
+#: support-tickets/admin/edit-tickets.php:144
+#: support-tickets/admin/edit-tickets.php:157
+#: support-tickets/includes/classes.php:583
+msgid "Status"
+msgstr "ステータス"
+
+#: support-tickets/admin/edit-ticket.php:47
+msgid "Additional Fields"
+msgstr "追加フィールド"
+
+#: support-tickets/admin/edit-ticket.php:66
+msgid "View Ticket Page"
+msgstr "チケットページを表示"
+
+#: support-tickets/admin/edit-ticket.php:69
+#: support-tickets/includes/classes.php:592
+msgid "Close This Ticket"
+msgstr "このチケットをクローズする"
+
+#: support-tickets/admin/edit-ticket.php:71
+#: support-tickets/includes/classes.php:590
+msgid "Reopen This Ticket"
+msgstr "このチケットを再オープンする"
+
+#: support-tickets/admin/edit-ticket.php:80
+msgid ""
+"You are about to delete this ticket.\n"
+"'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"このチケットを削除しようとしています。\n"
+"削除するには 'OK' を、中止するには 'キャンセル' をクリックしてください。"
+
+#: support-tickets/admin/edit-ticket.php:97
+#: support-tickets/admin/edit-tickets.php:140
+#: support-tickets/admin/edit-tickets.php:153
+msgid "Messages"
+msgstr "メッセージ"
+
+#: support-tickets/admin/edit-ticket.php:119
+#: support-tickets/admin/edit-ticket.php:124
+#: support-tickets/includes/classes.php:1252
+msgid "Draft"
+msgstr "下書きにする"
+
+#: support-tickets/admin/edit-ticket.php:124
+msgid "Publish"
+msgstr "公開する"
+
+#: support-tickets/admin/edit-ticket.php:126
+#: support-tickets/admin/edit-tickets.php:180
+#: support-tickets/includes/classes.php:596
+msgid "Edit"
+msgstr "編集"
+
+#: support-tickets/admin/edit-tickets.php:65
+msgid "All"
+msgstr "すべて"
+
+#: support-tickets/admin/edit-tickets.php:69
+msgid "Pending"
+msgstr "処理待ち"
+
+#: support-tickets/admin/edit-tickets.php:75
+msgid "Replied"
+msgstr "返信済み"
+
+#: support-tickets/admin/edit-tickets.php:81
+msgid "Closed"
+msgstr "クローズ"
+
+#: support-tickets/admin/edit-tickets.php:92
+#: support-tickets/admin/edit-tickets.php:95
+msgid "Search Tickets"
+msgstr "チケットを検索"
+
+#: support-tickets/admin/edit-tickets.php:107
+#: support-tickets/admin/edit-tickets.php:198
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+#: support-tickets/admin/edit-tickets.php:108
+#: support-tickets/admin/edit-tickets.php:199
+msgid "Close"
+msgstr "閉じる"
+
+#: support-tickets/admin/edit-tickets.php:111
+#: support-tickets/admin/edit-tickets.php:202
+msgid "Apply"
+msgstr "適用"
+
+#: support-tickets/admin/edit-tickets.php:116
+msgid "Order by Update Time"
+msgstr "更新日時の順で並べる"
+
+#: support-tickets/admin/edit-tickets.php:118
+msgid "Order by Create Time"
+msgstr "作成日時の順で並べる"
+
+#: support-tickets/admin/edit-tickets.php:120
+msgid "Order by Ticket ID"
+msgstr "チケット ID 順で並べる"
+
+#: support-tickets/admin/edit-tickets.php:124
+msgid "Filter"
+msgstr "フィルター"
+
+#: support-tickets/admin/edit-tickets.php:138
+#: support-tickets/admin/edit-tickets.php:151
+#: support-tickets/includes/classes.php:488
+msgid "Subject"
+msgstr "題名"
+
+#: support-tickets/admin/edit-tickets.php:141
+#: support-tickets/admin/edit-tickets.php:154
+msgid "Form"
+msgstr "フォーム"
+
+#: support-tickets/admin/edit-tickets.php:216
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: support-tickets/admin/edit-tickets.php:217
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: support-tickets/includes/classes.php:65
+#: support-tickets/includes/controller.php:52
+msgid "Validation errors occurred. Please confirm the fields and submit it again."
+msgstr "入力内容に不備があります。確認してもう一度送信してください。"
+
+#: support-tickets/includes/classes.php:68
+#: support-tickets/includes/controller.php:59
+#: support-tickets/includes/controller.php:74
+#: support-tickets/includes/controller.php:127
+msgid "Problem occurred. Please try later or contact administrator by other way."
+msgstr "問題が発生しました。しばらくしてまた試すか、または他の手段で管理者に連絡してください。"
+
+#: support-tickets/includes/classes.php:470
+#: support-tickets/includes/classes.php:480
+msgid "Untitled"
+msgstr "名称未設定"
+
+#: support-tickets/includes/classes.php:482
+msgid "Your Email"
+msgstr "メールアドレス"
+
+#: support-tickets/includes/classes.php:482
+#: support-tickets/includes/classes.php:488
+#: support-tickets/includes/classes.php:490
+msgid "(required)"
+msgstr " (必須) "
+
+#: support-tickets/includes/classes.php:484
+msgid "First Name"
+msgstr "名"
+
+#: support-tickets/includes/classes.php:486
+msgid "Last Name"
+msgstr "姓"
+
+#: support-tickets/includes/classes.php:490
+msgid "Message"
+msgstr "メッセージ"
+
+#: support-tickets/includes/classes.php:492
+msgid "Send"
+msgstr "送信"
+
+#: support-tickets/includes/classes.php:548
+msgid "This ticket has been closed."
+msgstr "このチケットはクローズされています。"
+
+#: support-tickets/includes/classes.php:564
+msgid "Send Message"
+msgstr "メッセージを送信"
+
+#: support-tickets/includes/classes.php:603
+msgid "Previous pending ticket"
+msgstr "ひとつ前の対応待ちチケット"
+
+#: support-tickets/includes/classes.php:612
+msgid "Next pending ticket"
+msgstr "ひとつ後の対応待ちチケット"
+
+#: support-tickets/includes/classes.php:623
+msgid "Ticket Info"
+msgstr "チケット情報"
+
+#: support-tickets/includes/classes.php:674
+#, php-format
+msgid "%1$s %2$s|Name of person"
+msgstr "%2$s %1$s|Name of person"
+
+#: support-tickets/includes/controller.php:31
+#: support-tickets/includes/controller.php:99
+#: support-tickets/includes/controller.php:155
+#: support-tickets/includes/controller.php:193
+msgid "Please submit again."
+msgstr "もう一度お試しください。"
+
+#: support-tickets/includes/controller.php:56
+#: support-tickets/includes/controller.php:118
+msgid "Please accept the terms to proceed."
+msgstr "進めるには条項の承諾が必要です。"
+
+#: support-tickets/includes/controller.php:68
+msgid "Your ticket is now open. Redirecting to the ticket page."
+msgstr "チケットを作成しました。チケットのページに転送します。"
+
+#: support-tickets/includes/controller.php:165
+msgid "Please input message."
+msgstr "メッセージを入力してください。"
+
+#: support-tickets/includes/controller.php:217
+msgid "You are not allowed to see this ticket."
+msgstr "このチケットを見る権限がありません。"
+
+#: support-tickets/includes/formatting.php:84
+#, php-format
+msgid "%s ago"
+msgstr "%s前"
+
+#: support-tickets/includes/formatting.php:86
+msgid "Y/m/d H:i"
+msgstr "Y/m/d H:i"
+
+#: support-tickets/includes/notifications.php:9
+#, php-format
+msgid "[%s] Support Tickets - A new ticket (TKT:%d)"
+msgstr "[%s] サポートチケット - 新しいチケット (TKT:%d)"
+
+#: support-tickets/includes/notifications.php:12
+msgid "A new ticket has opened."
+msgstr "新しいサポートチケットが作成されました。"
+
+#: support-tickets/includes/notifications.php:13
+#, php-format
+msgid "Subject: %s"
+msgstr "題名: %s"
+
+#: support-tickets/includes/notifications.php:14
+#, php-format
+msgid "Author: %s"
+msgstr "作成者: %s"
+
+#: support-tickets/includes/notifications.php:16
+#, php-format
+msgid "See the messages on the web at %s"
+msgstr "メッセージをみる %s"
+
+#: support-tickets/includes/notifications.php:20
+#: support-tickets/includes/notifications.php:63
+#: support-tickets/includes/notifications.php:85
+msgid "Please do not reply to this message; it was sent from an unmonitored email address."
+msgstr "このメッセージには返信しないでください。このメールアドレスに送られたメールは読まれません。"
+
+#: support-tickets/includes/notifications.php:24
+#: support-tickets/includes/notifications.php:55
+#, php-format
+msgid "Hi, %s."
+msgstr "こんにちは、%s さん。"
+
+#: support-tickets/includes/notifications.php:32
+#: support-tickets/includes/notifications.php:80
+msgid "Message Body:"
+msgstr "メッセージ本文:"
+
+#: support-tickets/includes/notifications.php:52
+#: support-tickets/includes/notifications.php:71
+#, php-format
+msgid "[%s] Support Tickets - You have a reply (TKT:%d)"
+msgstr "[%s] サポートチケット - 返信があります (TKT:%d)"
+
+#: support-tickets/includes/notifications.php:56
+#: support-tickets/includes/notifications.php:74
+#, php-format
+msgid "You have a new reply message from %s"
+msgstr "%s からの新しい返信メッセージがあります。"
+
+#: support-tickets/includes/notifications.php:59
+#: support-tickets/includes/notifications.php:77
+#, php-format
+msgid "See the message and reply on the web at %s"
+msgstr "メッセージを確認して返信する %s"
+
+#: support-tickets/modules/captcha.php:56
+msgid "To use CAPTCHA, you need <a href=\"http://wordpress.org/extend/plugins/really-simple-captcha/\">Really Simple CAPTCHA</a> plugin installed."
+msgstr "CAPTCHA を使うには <a href=\"http://wordpress.org/extend/plugins/really-simple-captcha/\">Really Simple CAPTCHA</a> プラグインのインストールが必要です。"
+
+#: support-tickets/modules/captcha.php:120
+msgid "Your entered code is incorrect."
+msgstr "入力されたコードが正しくありません。"
+
+#: support-tickets/modules/checkbox.php:142
+#: support-tickets/modules/select.php:125
+#: support-tickets/modules/text.php:103
+#: support-tickets/modules/text.php:110
+#: support-tickets/modules/textarea.php:92
+msgid "Please fill the required field."
+msgstr "必須項目に記入もれがあります。"
+
+#: support-tickets/modules/icl.php:280
+msgid "All languages"
+msgstr "すべての言語"
+
+#: support-tickets/modules/icl.php:441
+msgid "Translate this reply to visitor's language?"
+msgstr "この返信をビジターの言語に翻訳しますか?"
+
+#: support-tickets/modules/icl.php:443
+#: support-tickets/modules/icl.php:627
+#, php-format
+msgid "%1$s &raquo; %2$s"
+msgstr "%1$s &raquo; %2$s"
+
+#: support-tickets/modules/icl.php:523
+#, php-format
+msgid "[%s] Support Tickets - Translation is complete (TKT:%d)"
+msgstr "[%s] サポートチケット - 翻訳完了 (TKT:%d)"
+
+#: support-tickets/modules/icl.php:526
+msgid "Translation for your message is complete."
+msgstr "メッセージの翻訳を完了しました。"
+
+#: support-tickets/modules/icl.php:528
+#, php-format
+msgid "See the message and publish it on the web at %s"
+msgstr "メッセージを確認して公開する %s"
+
+#: support-tickets/modules/icl.php:574
+msgid "Translation for this message is now in progress."
+msgstr "ただ今メッセージの翻訳中です。"
+
+#: support-tickets/modules/icl.php:578
+msgid "Translation for this message is failed."
+msgstr "メッセージの翻訳に失敗しました。"
+
+#: support-tickets/modules/icl.php:582
+msgid "Translation for this message is complete."
+msgstr "メッセージの翻訳は完了しています。"
+
+#: support-tickets/modules/icl.php:591
+msgid "&raquo; Publish this message and notify the ticket author."
+msgstr "&raquo; このメッセージを公開して返信通知メールを送信する。"
+
+#: support-tickets/modules/icl.php:624
+msgid "Translation"
+msgstr "翻訳"
+
+#: support-tickets/modules/icl.php:626
+msgid "Translated by Google"
+msgstr "Google による翻訳"
+
+#: support-tickets/modules/paypal.php:54
+#, php-format
+msgid "[%s] Support Tickets - Paid Support - Ticket #%d"
+msgstr "[%s] サポートチケット - 有料サポート - チケット #%d"
+
+#: support-tickets/modules/paypal.php:60
+msgid "Return to Support Ticket Page"
+msgstr "サポートチケットのページに戻る"
+
+#: support-tickets/modules/paypal.php:77
+#, php-format
+msgid "Pay Now : %s"
+msgstr "お支払い : %s"
+
+#: support-tickets/modules/paypal.php:78
+msgid "Pay Now"
+msgstr "お支払い"
+
+#: support-tickets/modules/quiz.php:97
+msgid "Your answer is not correct."
+msgstr "答えが正しくありません。"
+
+#: support-tickets/modules/text.php:113
+msgid "Email address seems invalid."
+msgstr "メールアドレスの形式が正しくないようです。"
+
+#~ msgid "No support tickets yet."
+#~ msgstr "サポートチケットはまだありません。"
+#~ msgid "Delete This Ticket"
+#~ msgstr "このチケットを削除"
+#~ msgid "This message is under draft status."
+#~ msgstr "このメッセージは下書きの状態です。"
+#~ msgid "Translated by human translator"
+#~ msgstr "翻訳者による翻訳"
+#~ msgid "New support ticket created:"
+#~ msgstr "新しいサポートチケットが作成されました:"
+#~ msgid "Author: %1$s %2$s"
+#~ msgstr "作成者: %2$s %1$s"
+#~ msgid "Ticket tracking: %s"
+#~ msgstr "チケット追跡: %s"
+#~ msgid "View pending tickets"
+#~ msgstr "対応待ちのチケットを表示"
+#~ msgid "View closed tickets"
+#~ msgstr "クローズされたチケットを表示"
+#~ msgid "View all tickets"
+#~ msgstr "すべてのチケットを表示"
+#~ msgid "Edit this ticket."
+#~ msgstr "このチケットを編集する。"
+

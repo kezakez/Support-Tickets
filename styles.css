@@ -1,0 +1,124 @@
+div.suptic-response-output {
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
+}
+
+div.suptic-form-ng {
+	border: 2px solid #ff0000;
+}
+
+div.suptic-spam-blocked {
+	border: 2px solid #ffa500;
+}
+
+div.suptic-validation-errors {
+	border: 2px solid #f7e700;
+}
+
+div.suptic-redirecting {
+	border: 2px solid #398f14;
+}
+
+span.suptic-form-control-wrap {
+	position: relative;
+}
+
+span.suptic-not-valid-tip {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	background: #fff;
+	border: 1px solid #ff0000;
+	font-size: 10pt;
+	width: 280px;
+	padding: 2px;
+}
+
+span.suptic-not-valid-tip-no-ajax {
+	color: #f00;
+	font-size: 10pt;
+	display: block;
+}
+
+div.ticket-message {
+	position: relative;
+	margin: 1.8em 0;
+}
+
+div.ticket-message div.message-body {
+	margin: 0 50px;
+	padding: 2px 12px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	background-color: #efefef;
+}
+
+div.ticket-message.from-admin div.message-body {
+	background-color: #e7e7e7;
+}
+
+div.ticket-message div.message-body div.description {
+	margin-top: 0.5em;
+	font-size: smaller;
+	color: #555;
+}
+
+div.ticket-message div.message-body div.description span.author {
+	font-weight: bolder;
+}
+
+div.ticket-message div.author-info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+div.ticket-message.from-admin div.author-info {
+	left: auto;
+	right: 0;
+}
+
+div.ticket-message div.author-info img.avatar {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+div.ticket-message div.author-info img.avatar-36 {
+	width: 36px;
+	height: 36px;
+}
+
+div.ticket-message span.draft-notice {
+	font-weight: bold;
+	color: #ff4040;
+}
+
+div.suptic textarea.message-input {
+	width: 94%;
+}
+
+div.suptic div.ticket-info {
+	border: 4px double #ccc;
+	background-color: #e7e7e7;
+	padding: 0.2em 1em;
+	text-align: left;
+}
+
+div.suptic div.ticket-info div.title {
+	font-weight: bold;
+	margin: 2px 0;
+}
+
+div.suptic div.ticket-info p {
+	text-align: left;
+}
+
+.suptic-display-none {
+	display: none;
+}

@@ -1,0 +1,192 @@
+ul.subsubsub {
+	white-space: normal;
+}
+
+ul.subsubsub li.addnew {
+	margin-left: 0.5em;
+}
+
+ul.subsubsub li.addnew a {
+	color: #e6255b;
+}
+
+ul.subsubsub li.addnew a:hover,
+ul.subsubsub li.addnew a:active {
+  color: #999;
+}
+
+input#form-name {
+	color: #555;
+	background-color: #fff;
+	border: none;
+	font: bold 20px serif;
+}
+
+div.save-form {
+	padding: 1.4em 0 0 0;
+	text-align: right;
+}
+
+div.actions-link {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+}
+
+div.actions-link input {
+	padding: 0;
+	margin: 0;
+	border: none;
+	background-color: #fff;
+	font-size: 11px;
+	cursor: pointer;
+}
+
+div.actions-link input.delete {
+	color: #bc0b0b;
+}
+
+tr.ticket-status-new {
+	background-color: #fffb9b;
+}
+
+tr.ticket-status-waiting-reply {
+	background-color: #ffe1c7;
+}
+
+tr.ticket-status-closed {
+	background-color: #ccc;
+}
+
+tr.ticket-status-new.alternate {
+	background-color: #ffeb8b;
+}
+
+tr.ticket-status-waiting-reply.alternate {
+	background-color: #ffd1b7;
+}
+
+tr.ticket-status-closed.alternate {
+	background-color: #b7b7b7;
+}
+
+table.ticket-description tr th, table.ticket-description tr td {
+	border: none;
+}
+
+dl.setting {
+	margin: 4px;
+}
+
+dl.setting dt {
+	font-weight: bold;
+	margin: 0 0 0.4em;
+}
+
+dl.setting dt span.desc {
+	font-size: smaller;
+	margin-left: 1em;
+	color: #474747;
+}
+
+dl.setting dd {
+	padding-left: 1em;
+}
+
+table.suptic-messages-under-ticket th.num {
+	width: 1.5em;
+	vertical-align: middle;
+}
+
+table.suptic-messages-under-ticket td.avatar {
+	width: 40px;
+	vertical-align: middle;
+}
+
+table.suptic-messages-under-ticket p.desc {
+	color: #555;
+	font-size: smaller;
+}
+
+table.suptic-messages-under-ticket p.desc span.draft-notice {
+	font-weight: bold;
+	color: #111;
+}
+
+table.suptic-messages-under-ticket tr.waiting-reply {
+	background-color: #fff1e7;
+}
+
+
+/* Tag Generator */
+
+div.tag-generator {
+	position: relative;
+	background: #fff;
+	padding: 5px 0 5px 1px;
+}
+
+div.tg-pane {
+    border: 1px dashed #999;
+    background: #f1f1f1;
+    margin: 1ex 0 0 0;
+    padding: 10px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+div.tg-pane table {
+	width: 100%;
+	margin: 0 0 0.7em 0;
+}
+
+div.tg-pane table caption {
+	text-align: left;
+	padding: 0 0 0.2em 0;
+	font-weight: bolder;
+	color: #777;
+}
+
+div.tg-pane table code {
+	background-color: inherit;
+}
+
+div.tg-pane table td {
+	vertical-align: top;
+	width: 50%;
+}
+
+div.tg-pane input.tag {
+	border: none;
+	color: #fff;
+	background-color: #8a796d;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+div.tg-dropdown {
+    position: absolute;
+    top: 26px;
+	left: 0;
+    z-index: 10;
+    border: 1px solid #ddd;
+}
+
+span.tg-closebutton {
+    color: #777;
+    font: bold 18px monospace;
+    padding: 1px 4px;
+    cursor: pointer;
+}
+
+div.tg-panetitle {
+    font: bold 132% sans-serif;
+    margin: 0 0 10px;
+    color: #777;
+}
