@@ -24,7 +24,7 @@ function suptic_json( $items ) {
 			$children = array();
 			foreach ( $items as $key => $item ) {
 				$key = esc_js( (string) $key );
-				if ( preg_match( '/[^a-zA-Z]/', $key ) )
+				//if ( preg_match( '/[^a-zA-Z]/', $key ) )
 					$key = '"' . $key . '"';
 
 				$children[] = $key . ': ' . suptic_json( $item );

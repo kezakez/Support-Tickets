@@ -1,9 +1,9 @@
 jQuery(document).ready(function() {
-    try {
+	try {
         jQuery('div.suptic.form > form').ajaxForm({
             beforeSubmit: supticBeforeSubmit,
             dataType: 'json',
-            success: supticProcessJson
+			complete: supticProcessJson
         });
     } catch (e) {
     }
@@ -39,7 +39,9 @@ function supticNotValidTip(into, message) {
 	});
 }
 
-function supticProcessJson(data) {
+function supticProcessJson(resp) {
+	var data = JSON.parse(resp.responseText);
+	data.into = "div.suptic";
 	var supticResponseOutput = jQuery(data.into).find('div.suptic-response-output');
 
 	supticClearResponseOutput();
