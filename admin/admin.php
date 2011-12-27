@@ -132,6 +132,19 @@ function suptic_admin_init() {
 		wp_redirect( suptic_admin_url( 'edit-forms.php', array( 'message' => 'form_deleted' ) ) );
 		exit();
 
+	} elseif ( isset( $_POST['suptic-mark-ticket'] ) ) {
+		$ticket_id = (int) $_POST['ticket-id'];
+		check_admin_referer( 'suptic-edit-ticket-' . $ticket_id );
+
+		if ( ! suptic_you_can_access_all_tickets() )
+			wp_die( __( 'Cheatin&#8217; uh?', 'suptic' ) );
+
+		if ( $ticket = suptic_get_ticket( $ticket_id ) )
+			$ticket->set_status( 'read' );
+
+		wp_redirect( suptic_admin_url( 'edit-tickets.php',
+			array( 'ticket_id' => $ticket_id, 'message' => 'ticket_read' ) ) );
+		exit();
 	} elseif ( isset( $_POST['suptic-close-ticket'] ) ) {
 		$ticket_id = (int) $_POST['ticket-id'];
 		check_admin_referer( 'suptic-edit-ticket-' . $ticket_id );

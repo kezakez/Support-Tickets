@@ -136,6 +136,7 @@ echo suptic_generate_subsubsub( $subsubsub );
 <tr>
 <th scope="col" id="cb" class="manage-column column-cb check-column" style=""><input type="checkbox" /></th>
 <th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Subject', 'suptic' ) ); ?></th>
+<th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Ticket', 'suptic' ) ); ?></th>
 <th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Author', 'suptic' ) ); ?></th>
 <th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Messages', 'suptic' ) ); ?></th>
 <th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Form', 'suptic' ) ); ?></th>
@@ -149,6 +150,7 @@ echo suptic_generate_subsubsub( $subsubsub );
 <tr>
 <th scope="col"  class="manage-column column-cb check-column" style=""><input type="checkbox" /></th>
 <th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Subject', 'suptic' ) ); ?></th>
+<th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Ticket', 'suptic' ) ); ?></th>
 <th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Author', 'suptic' ) ); ?></th>
 <th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Messages', 'suptic' ) ); ?></th>
 <th scope="col" class="manage-column column-name" style=""><?php echo esc_html( __( 'Form', 'suptic' ) ); ?></th>
@@ -179,6 +181,7 @@ $class = trim( $class );
 
 <p class="row-actions"><a href="<?php echo suptic_admin_url( 'edit-tickets.php', array( 'ticket_id' => $ticket->id ) ); ?>"><?php echo esc_html( __( 'Edit', 'suptic' ) ); ?></a></p>
 </td>
+<td><?php echo esc_html( $ticket->id ); ?></td>
 <td><?php echo esc_html( $ticket->author_name() ); ?></td>
 <td><?php echo esc_html( $ticket->message_count() ); ?></td>
 <td><?php $form = $ticket->form();

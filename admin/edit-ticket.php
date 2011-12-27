@@ -50,7 +50,7 @@
 <tbody><?php foreach ( $metas as $meta ) : ?>
 <tr>
 <th><?php echo esc_html( $meta->meta_key ); ?></th>
-<td><?php echo esc_html( $meta->meta_value ); ?></td>
+<td><pre><?php echo esc_html( $meta->meta_value ); ?></pre></td>
 </tr>
 <?php endforeach; ?>
 </tbody>
@@ -66,6 +66,9 @@
 <a href="<?php echo esc_attr( $ticket->url() ); ?>" class="button-primary" target="_blank"><?php echo esc_html( __( 'View Ticket Page', 'suptic' ) ); ?></a>
 
 <?php if ( ! $ticket->has_status( 'closed' ) ) : ?>
+<?php 	if ( ! $ticket->has_status( 'read' ) ) : ?>
+&emsp;<input type="submit" name="suptic-mark-ticket" class="button" value="<?php echo esc_attr( __( 'Mark as Read', 'suptic' ) ); ?>" />
+<?php 	endif ?>
 &emsp;<input type="submit" name="suptic-close-ticket" class="button" value="<?php echo esc_attr( __( 'Close This Ticket', 'suptic' ) ); ?>" />
 <?php else : ?>
 &emsp;<input type="submit" name="suptic-reopen-ticket" class="button" value="<?php echo esc_attr( __( 'Reopen This Ticket', 'suptic' ) ); ?>" />
